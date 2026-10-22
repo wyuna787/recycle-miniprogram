@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-multipart
+passlib[bcrypt]
+bcrypt<5
+python-jose
+
+# 说明：
+# - 本项目为 Python 后端，无 package.json
+# - python-multipart：FastAPI 可选依赖（表单/文件上传），当前 MVP 路由未使用上传，建议保留
+# - ecdsa/cryptography 等由 python-jose 间接安装，无需单独列出

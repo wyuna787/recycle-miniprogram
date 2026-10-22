@@ -1,0 +1,35 @@
+# Local secrets and developer configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+private.*
+project.private.config.json
+# Dependencies and generated output
+node_modules/
+miniprogram_npm/
+unpackage/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+# Runtime data and archives
+*.db
+*.db-*
+*.sqlite*
+*.log
+uploads/
+backups/
+backup*/
+*.zip
+*.tar.gz
+# Editor and OS
+.DS_Store
+.idea/
+.vscode/
+.hbuilderx/

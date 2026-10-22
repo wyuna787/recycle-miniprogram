@@ -1,0 +1,33 @@
+{
+  "name": "shopping-app",
+  "version": "1.0.0",
+  "description": "二手商城小程序",
+  "main": "main.js",
+  "scripts": {
+    "dev:mp-weixin": "uni build --watch --platform mp-weixin",
+    "build:mp-weixin": "uni build --platform mp-weixin",
+    "dev:h5": "uni build --watch --platform h5",
+    "build:h5": "uni build --platform h5",
+    "dev:app": "uni build --watch --platform app",
+    "build:app": "uni build --platform app"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0",
+    "@dcloudio/uni-components": "^3.0.0",
+    "@dcloudio/uni-h5": "^3.0.0",
+    "@dcloudio/uni-mp-weixin": "^3.0.0"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-cli-shared": "^3.0.0",
+    "@dcloudio/vite-plugin-uni": "^3.0.0",
+    "vite": "^4.0.0"
+  },
+  "keywords": [
+    "uniapp",
+    "vue3",
+    "微信小程序",
+    "二手商城"
+  ],
+  "author": "",
+  "license": "MIT"
+}

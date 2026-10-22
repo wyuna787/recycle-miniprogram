@@ -1,0 +1,219 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/common/agreement/agreement",
+      "style": {
+        "navigationBarTitleText": "用户服务协议"
+      }
+    },
+    {
+      "path": "pages/common/privacy/privacy",
+      "style": {
+        "navigationBarTitleText": "隐私政策"
+      }
+    },
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "工作台"
+      }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/message/message",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "消息中心"
+      }
+    },
+    {
+      "path": "pages/merchant/auth/auth",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "商家入驻"
+      }
+    },
+    {
+      "path": "pages/merchant/device/device",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "设备估价"
+      }
+    },
+    {
+      "path": "pages/merchant/inquiry/inquiry",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我的询价"
+      }
+    },
+    {
+      "path": "pages/merchant/order/order",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "商家订单"
+      }
+    },
+    {
+      "path": "pages/merchant/finance/finance",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "资金账户"
+      }
+    },
+    {
+      "path": "pages/recycler/inquiry/inquiry",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "收到的询价"
+      }
+    },
+    {
+      "path": "pages/recycler/quote/quote",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我要报价"
+      }
+    },
+    {
+      "path": "pages/recycler/order/order",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "回收订单"
+      }
+    },
+    {
+      "path": "pages/recycler/settlement/settlement",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "预付款额度池"
+      }
+    },
+    {
+      "path": "pages/company/staff-review/staff-review",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "员工审核"
+      }
+    },
+    {
+      "path": "pages/platform/orders/orders",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "订单监控"
+      }
+    },
+    {
+      "path": "pages/platform/payment/payment",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "审核中心"
+      }
+    },
+    {
+      "path": "pages/platform/payout/payout",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "消息通知"
+      }
+    },
+    {
+      "path": "pages/platform/fund/fund",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "资金池管理"
+      }
+    },
+    {
+      "path": "pages/merchant/commission/commission",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "分成比例设置"
+      }
+    },
+    {
+      "path": "pages/platform/dashboard/dashboard",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "数据总览"
+      }
+    },
+    {
+      "path": "pages/recycler/quote-search/quote-search",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "单号查询报价"
+      }
+    },
+    {
+      "path": "pages/merchant/analysis/analysis",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "数据分析"
+      }
+    },
+    {
+      "path": "pages/recycler/analysis/analysis",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "数据分析"
+      }
+    },
+    {
+      "path": "pages/platform/finance/finance",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "财务流水明细"
+      }
+    },
+    {
+      "path": "pages/common/device-detail/device-detail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "设备详细信息"
+      }
+    },
+    {
+      "path": "pages/company/staff-list/staff-list",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "员工账号"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "中晨回收",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f3f5f7"
+  },
+  "tabBar": {
+    "color": "#8a8f98",
+    "selectedColor": "#17324d",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "工作台"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的"
+      }
+    ]
+  }
+}
